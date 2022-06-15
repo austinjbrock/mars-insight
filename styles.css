@@ -1,0 +1,16 @@
+body{
+   background-image: url('img/img-1.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flexbox;
+   min-height: 100vh;
+
+
+}
+
+.title-box {
+   color: #fff;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   font-size: 2em;
+}
