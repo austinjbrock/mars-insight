@@ -3,4 +3,6 @@ console.log(fetch('https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedty
 .then(data=> console.log(data))
 )
 
+const weatherBtn = document.getElementById('get-weather-btn');
 
+weatherBtn.addEventListener('click', ()=>{alert('hello')})
