@@ -1,13 +1,17 @@
-body{
-   background-color: rgb(222, 222, 222);
-   background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Gruppo&family=Rajdhani:wght@300&family=Roboto+Mono:wght@215;400&display=swap');
 
+body{
+   background-size: cover;
+   background-image: url('img/new-img.jpg');
+   font-family: 'Rajdhani', sans-serif;;
+   font-weight: 300;
 
 }
 
 .title-box {
    color: #fff;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family: 'Rajdhani', sans-serif;;
+   font-weight: 300;
    text-align: center;
    font-size: 2em;
 }
@@ -23,11 +27,23 @@ body{
    font-size: 16px;
    padding: 10px;
    margin: 0 auto;
+   background-color: transparent;
+   color: #fff;
 }
+
+.btn:hover{
+   color: orange;
+   background-color: black;
+}
+
 
 .display-box {
    text-align: center;
-   border: 2px solid black;
    margin-top: 40px;
    height: 200px;
+   color: #fff;
+}
+
+#weather-details-para{
+   color: #fff;
 }
