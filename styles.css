@@ -63,17 +63,29 @@ body{
    right: 0;
  }
 
-
-
-
-
-.display-box {
+.display-container {
    text-align: center;
    margin-top: 40px;
    height: 200px;
    color: #fff;
+   display: flexbox;
+
+}
+
+.display-box {
+   display: flex;
+   justify-content: space-around;
+   font-size: 24px;
+}
+
+.box {
+   border: 2px solid #fff;
+   padding: 22px;
+   border-radius: 10%;
 }
 
 #weather-details-para{
    color: #fff;
 }
+
+
