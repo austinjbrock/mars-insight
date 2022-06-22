@@ -22,15 +22,21 @@ body{
 
 }
 
-.btn {
-   font-size: 16px;
-   padding: 10px;
+.btn{
+   padding: 22px;
    margin: 0 auto;
    background-color: transparent;
    color: #fff;
+   border-radius: 8%;
+   font-size: 24px;
+   font-family: 'Rajdhani', sans-serif;
 } 
 
+.current-weather-title {
+   margin: 0 auto;
+   padding: 2px;
 
+}
 
 /* Underline From Left */
 .hvr-underline-from-left {
@@ -73,10 +79,14 @@ body{
 
 }
 
+.current-weather-title{
+   color: #fff;
+}
+
 .display-box {
    display: flex;
    justify-content: space-around;
-   font-size: 24px;
+   font-size: 28px;
    margin: 45px 0px;
 }
 
@@ -85,6 +95,7 @@ body{
    border: 2px solid #fff;
    padding: 22px;
    border-radius: 10%;
+
 }
 
 #weather-details-para{
